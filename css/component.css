@@ -1,0 +1,50 @@
+/* Header */
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #ffffff;
+	overflow: hidden;
+	background-size: cover;
+	z-index: 1;
+}
+
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: left;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	width: 80%;
+
+}
+
+.demo-1 .main-title {
+	font-size: 4.2em;
+
+}
+
+.main-title .thin {
+	font-size: 0.35rem;
+	font-weight: normal;
+	display: block;
+	margin: 1rem auto;
+	text-align: left;
+	color: #444444;
+}
+
+@media only screen and (max-width : 768px) {
+	.demo-1 .main-title, 
+	.demo-3 .main-title,
+	.demo-4 .main-title {
+		font-size: 3em;
+	}
+
+	.demo-2 .main-title {
+		font-size: 4em;
+	}
+}
